@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="thumb-container">
+    <img [src]="thumbnail" alt="" class="thumb">
+    <p class="time">{{ videoTime }}</p>
+  </div>
+  <div  class="video-infos">
+    <div>
+      <img [src]="perfilImg" alt="" class="perfil">
+    </div>
+    <div class="name-infos">
+      <h3 class="title" [title]="title">{{ title }}</h3>
+      <a class="channel" [title]="channel">{{ channel }}</a>
+      <div class="status">
+        <span>100 visualizaçoes</span>
+        <i class="material-icons icon-views" style="font-size: 6px;">fiber_manual_record</i>
+        <span>há 1 horas</span>
+      </div>
+      <div>
+        <i class="material-icons video-options">more_vert</i>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,113 @@
+header {
+  margin-bottom: 12px;
+}
+
+input {
+  border: none;
+  width: 470px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search {
+  display: flex;
+  border-radius: 24px;
+  align-items: center;
+  height: 40px;
+}
+
+.input_area {
+  border: 1px solid var(--background-button);
+  border-bottom-left-radius: 24px;
+  border-top-left-radius: 24px;
+  padding: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 24px;
+  margin-left: 16px;
+}
+
+.keyboard_button, .search_button  {
+  border: none;
+  background-color: transparent;
+}
+
+.keyboard_button:hover, .microphone_icon, .search_button, .hamburger-menu, .configs-icon {
+  cursor: pointer;
+}
+
+.keyboard_button img, .lupa_img, .person {
+  width: 24px;
+}
+
+.microphone_icon {
+  background-color: var(--background-button);
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  border-radius: 26px;
+  margin-left: 12px;
+}
+
+.search:focus {
+  outline: 1px solid #065fd438;
+}
+
+.login_link {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  justify-content: center;
+  gap: 8px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: bold;
+  width: 120px;
+  color: #065fd4;
+  border: 1px solid var(--background-button);
+  border-radius: 24px;
+}
+
+.login_link:hover {
+  cursor: pointer;
+  background-color: #065fd438;
+}
+
+.search_button {
+  border: 1px solid #d4d4d4;
+  width: 60px;
+  height: 40px;
+  background-color: var(--background-button);
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.hamburger-menu {
+  width: 28px;
+  margin: 0 16px;
+  padding: 6px;
+  border-radius: 16px;
+}
+
+.hamburger-menu:hover {
+  background-color: var(--background-button);
+}
+
+.configs-icon {
+
+}
