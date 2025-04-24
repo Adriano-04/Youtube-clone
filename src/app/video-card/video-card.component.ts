@@ -12,4 +12,5 @@ export class VideoCardComponent {
   @Input() channel: string = '';
   @Input() perfilImg: string = '';
   @Input() videoTime: string = '';
+  @Input() views: string = '';
 }

@@ -2,4 +2,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .list {
+    grid-template-columns: 1fr;
+  }
 }

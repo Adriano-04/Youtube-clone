@@ -3,7 +3,7 @@
 <header>
   <div class="navbar">
     <div>
-      <img src="/assets/hamburger-menu.svg" alt="menu" class="hamburger-menu">
+      <img src="/assets/hamburger-menu.svg" (click)="onToggleMenu()" alt="menu" class="hamburger-menu">
       <img src="/assets/youtube_logo.png" alt="Logo youtube" class="logo">
     </div>
 
@@ -23,7 +23,7 @@
     </div>
 
     <div>
-      <i class="material-icons configs-icon" title="configurações">more_vert</i>
+      <i class="material-symbols-outlined configs-icon" title="configurações">more_vert</i>
       <p class="login_link">
         <img src="/assets/person_svg.svg" alt="" class="person">
         Fazer login

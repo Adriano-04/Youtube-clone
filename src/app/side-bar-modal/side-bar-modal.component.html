@@ -1,0 +1,103 @@
+<div class="menu-container" [class.open]="MenuOpen">
+  <div class="top">
+    <i class="material-symbols-outlined icon-menu" (click)="onToggleMenu()">menu</i>
+    <img src="/assets/youtube_logo.png" alt="logo youtube" class="logo">
+  </div>
+  <div class="options">
+    <div class="option">
+      <i class="material-symbols-outlined icon">home</i>
+      <p>Início</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">bolt</i>
+      <p>Shorts</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">smart_display</i>
+      <p>Inscrições</p>
+    </div>
+
+    <hr class="line">
+
+    <div class="option">
+      <i class="material-symbols-outlined icon">account_circle</i>
+      <p>Você</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">schedule</i>
+      <p>Histórico</p>
+    </div>
+
+    <hr class="line">
+
+    <p>Faça login para curtir <br> vídeos, comentar e se <br> inscrever.</p>
+    <p class="login_link">
+      <img src="/assets/person_svg.svg" alt="" class="person">
+      Fazer login
+    </p>
+
+    <hr class="line">
+
+    <h4>Explorar</h4>
+    <div class="option">
+      <i class="material-symbols-outlined icon">mode_heat</i>
+      <p>Em alta</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">local_mall</i>
+      <p>Shopping</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">music_video</i>
+      <p>Música</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">movie</i>
+      <p>Filmes</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">sensors</i>
+      <p>Ao vivo</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">sports_esports</i>
+      <p>Jogos</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">newspaper</i>
+      <p>Noticias</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">trophy</i>
+      <p>Esportes</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">school</i>
+      <p>Cursos</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">podcasts</i>
+      <p>Podcasts</p>
+    </div>
+
+    <hr class="line">
+
+    <div class="option">
+      <i class="material-symbols-outlined icon">settings</i>
+      <p>Configurações</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">flag</i>
+      <p>Histórico de denúnica</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">help</i>
+      <p>Ajuda</p>
+    </div>
+    <div class="option">
+      <i class="material-symbols-outlined icon">feedback</i>
+      <p>Feedback</p>
+    </div>
+  </div>
+</div>
+<div class="overlay" *ngIf="MenuOpen"></div>
