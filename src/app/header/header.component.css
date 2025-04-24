@@ -82,6 +82,10 @@ div {
   border-bottom-right-radius: 16px;
 }
 
+.search_button:hover, .microphone_icon:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .hamburger-menu {
   width: 28px;
   margin: 0 16px;
