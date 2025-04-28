@@ -33,6 +33,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 8px 0;
 
 }
 
@@ -42,9 +43,8 @@ div {
 }
 
 .logo {
-  width: 120px;
-  height: 24px;
-  margin-left: 16px;
+  width: 100px;
+  height: 20px;
 }
 
 .keyboard_button, .search_button  {

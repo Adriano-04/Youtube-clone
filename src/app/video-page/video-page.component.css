@@ -1,0 +1,18 @@
+.video {
+  border-radius: 12px;
+}
+
+.video-title {
+  margin: 12px 0;
+  display: block;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+}
+
+.info-video {
+  display: flex;
+  justify-content: space-between;
+}

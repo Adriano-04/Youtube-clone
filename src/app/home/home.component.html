@@ -1,0 +1,8 @@
+<div class="container">
+  <app-header [MenuOpen]="MenuOpen" (toggleMenu)="toggleMenu()"></app-header>
+  <div class="page">
+    <app-aside></app-aside>
+    <app-video-list></app-video-list>
+    <app-side-bar-modal (toggleMenu)="toggleMenu()" [MenuOpen]="MenuOpen"></app-side-bar-modal>
+  </div>
+</div>
