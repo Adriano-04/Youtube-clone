@@ -1,6 +1,7 @@
 <div class="container">
   <app-header></app-header>
-  <div>
+
+  <div class="page">
     <div>
       <video width="840" height="480" controls class="video">
         <source src="assets/video_placeholder.mp4">
@@ -10,16 +11,41 @@
         <div class="channel-info">
           <img src="https://lh3.googleusercontent.com/a/AEdFTp7qgIFu73o4Os7gDCPmOyxGlwk2HWpdqvkADvif" class="perfil" alt="">
           <div>
-            <p>Nome do canal</p>
-            <span>Inscritos do canal</span>
+            <p class="channel-name">Nome do canal</p>
+            <span class="subscribes">11 mil inscritos</span>
           </div>
-          <button>Inscrever-se</button>
+          <button class="subscribe">Inscrever-se</button>
         </div>
-        <div>
-          <p>like</p>
-          <p>deslike</p>
+
+        <div class="interation">
+          <div class="feedback">
+            <div class="like">
+              <p class="text">
+                <i class="material-symbols-outlined icon">thumb_up</i>
+                137
+              </p>
+            </div>
+            <div class="deslike">
+              <p>
+                <i class="material-symbols-outlined">thumb_down</i>
+              </p>
+            </div>
+          </div>
+          <p class="button-video">
+            <i class="material-symbols-outlined icon">share</i>
+            Compartilhar
+          </p>
+          <p class="button-video">
+            <i class="material-symbols-outlined icon">vertical_align_bottom</i>
+            Download
+          </p>
+          <p class="button-video">
+            <i class="material-symbols-outlined">more_vert</i>
+          </p>
         </div>
+
       </div>
     </div>
   </div>
+
 </div>

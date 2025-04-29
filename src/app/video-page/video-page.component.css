@@ -7,6 +7,11 @@
   display: block;
 }
 
+.channel-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .channel-info {
   display: flex;
   align-items: center;
@@ -15,4 +20,75 @@
 .info-video {
   display: flex;
   justify-content: space-between;
+}
+
+.subscribes {
+  font-size: 12px;
+  color: gray;
+}
+
+.subscribe {
+  background-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  margin-left: 8px;
+}
+
+.page, .interation {
+  display: flex;
+}
+
+.interation {
+  align-items: center;
+}
+
+.thumbnail {
+  width: 160px;
+  height: 90px;
+}
+
+.text, .feedback, .button-video {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.deslike {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-button);
+  padding: 4px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 50px;
+}
+
+.like {
+  background-color: var(--background-button);
+  padding: 6px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  width: 80px;
+  border-right: 1px solid gray;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.feedback:hover, .subscribe:hover, .button-video:hover {
+  cursor: pointer;
+}
+
+.button-video {
+  background-color: var(--background-button);
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 14px;
+  margin-left: 8px;
 }

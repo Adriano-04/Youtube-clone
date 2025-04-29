@@ -17,7 +17,7 @@
 
 
 :root {
-  --background-button: rgba(0,0,0,0.1);
+  --background-button: rgba(0,0,0,0.06);
 }
 
 /*Estiliza botão perfil tanto no header quanto no sidebar*/

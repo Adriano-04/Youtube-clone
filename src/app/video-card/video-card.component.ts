@@ -8,6 +8,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './video-card.component.css'
 })
 export class VideoCardComponent {
+  @Input() mode: 'home' | 'sidebar' = 'home';
   @Input() thumbnail: string = '';
   @Input() title: string = '';
   @Input() channel: string = '';
