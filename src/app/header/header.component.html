@@ -1,8 +1,8 @@
 <header>
   <div class="navbar">
     <div>
-      <img src="/assets/hamburger-menu.svg" (click)="onToggleMenu()" alt="menu" class="hamburger-menu">
-      <img src="/assets/youtube_logo.png" alt="Logo youtube" class="logo">
+      <i class="material-symbols-outlined hamburger-menu" (click)="onToggleMenu()">menu</i>
+      <img src="/assets/youtube_logo.png" alt="Logo youtube" [routerLink]="['/home']" class="logo">
     </div>
 
     <div>
@@ -17,7 +17,7 @@
           <img src="/assets/lupa_img.png" alt="pesquisa" class="lupa_img">
         </button>
       </div>
-      <img title="Pesquisa com sua voz" src="/assets/microphone-svg.svg" alt="" class="microphone_icon">
+      <span class="material-symbols-outlined microphone_icon" title="Pesquisa com sua voz">mic</span>
     </div>
 
     <div>

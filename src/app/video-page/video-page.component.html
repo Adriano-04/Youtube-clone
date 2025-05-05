@@ -1,0 +1,108 @@
+<div class="container">
+  <app-header></app-header>
+
+  <div class="page">
+    <div>
+      <video width="870" height="500" controls class="video">
+        <source src="assets/video_placeholder.mp4">
+      </video>
+      <h2 class="video-title">Titulo do video</h2>
+      <div class="info-video">
+        <div class="channel-info">
+          <img src="https://th.bing.com/th/id/OIP.2cNvjqDqFNRTvaaJEHPGJgHaEo?rs=1&pid=ImgDetMain" class="perfil" alt="">
+          <div>
+            <p class="channel-name">Nome do canal</p>
+            <span class="subscribes">11 mil inscritos</span>
+          </div>
+          <button class="subscribe">Inscrever-se</button>
+        </div>
+
+        <div class="interation">
+          <div class="feedback">
+            <div class="like">
+              <p class="text">
+                <i class="material-symbols-outlined icon">thumb_up</i>
+                137
+              </p>
+            </div>
+            <div class="deslike">
+              <p>
+                <i class="material-symbols-outlined">thumb_down</i>
+              </p>
+            </div>
+          </div>
+          <p class="button-video">
+            <i class="material-symbols-outlined icon">share</i>
+            Compartilhar
+          </p>
+          <p class="button-video">
+            <i class="material-symbols-outlined icon">vertical_align_bottom</i>
+            Download
+          </p>
+          <p class="button-video">
+            <i class="material-symbols-outlined">more_vert</i>
+          </p>
+        </div>
+      </div>
+
+      <div class="description">
+        <div>
+          <span class="status">
+            32 mil visualizações
+          </span>
+          <span class="status">
+            há 2 dias
+          </span>
+        </div>
+        <p class="text-description">
+          Descrição do video.
+        </p>
+      </div>
+
+      <div>
+        <div style="margin: 10px 0;">
+          <h3>Comentários</h3>
+        </div>
+        <div style="display: flex; margin-bottom: 16px;">
+          <img src="https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj" alt="icon-perfil" class="icon-perfil">
+          <input type="text" placeholder="Adicione um comentário..." class="input-comment">
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li>
+        <app-side-video-card
+        thumbnail="https://th.bing.com/th/id/OIP.TxSLJy9_Z4wIMDGm8gLJYwHaE7?w=650&h=433&rs=1&pid=ImgDetMain"
+        title="Cuidados importantes para seu veiculo"
+        channel="Auto-motors"
+        >
+        </app-side-video-card>
+      </li>
+      <li>
+        <app-side-video-card
+        thumbnail="https://www.programacion.com.py/wp-content/uploads/2016/11/react-logo-1024x576.png"
+        title="Primeiros passos no react. (Aula 01)"
+        channel="dev_front"
+        >
+        </app-side-video-card>
+      </li>
+      <li>
+        <app-side-video-card
+        thumbnail="https://m-cdn.phonearena.com/images/article/159204-wide-two_1200/The-Galaxy-S25-Ultra-surfaces-for-the-first-time-this-year.jpg"
+        title="Teste do novo celular da samsung. Vale a pena?"
+        channel="Beta test"
+        >
+        </app-side-video-card>
+      </li>
+      <li>
+        <app-side-video-card
+        thumbnail="https://tobemnacozinha.com.br/wp-content/uploads/2020/05/P4250047-1-scaled.jpg"
+        title="Prato excelente para almoço de domingo com a familia"
+        channel="Receita caseira"
+        >
+        </app-side-video-card>
+      </li>
+    </ul>
+  </div>
+
+</div>

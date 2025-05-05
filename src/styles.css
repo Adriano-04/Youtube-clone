@@ -1,7 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
 :root {
-  --background-button: rgba(0,0,0,0.1);
+  --background-button: rgba(0,0,0,0.06);
+  --background-text: rgba(0,0,0,0.6)
 }
 
 /*Estiliza botão perfil tanto no header quanto no sidebar*/
@@ -30,4 +47,11 @@
 
 .person {
   width: 24px;
+}
+
+.perfil {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  margin-right: 12px;
 }
