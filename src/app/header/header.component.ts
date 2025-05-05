@@ -1,8 +1,10 @@
-import { Component, EventEmitter, Input, Output, output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { SideBarModalComponent } from '../side-bar-modal/side-bar-modal.component';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [RouterLink,SideBarModalComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

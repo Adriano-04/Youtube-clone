@@ -1,5 +1,11 @@
 .video {
   border-radius: 12px;
+  margin-right: 16px;
+}
+
+li {
+  margin-top: 6px;
+  list-style: none;
 }
 
 .video-title {
@@ -85,10 +91,44 @@
   cursor: pointer;
 }
 
+.description {
+  min-height: 64px;
+  margin-top: 12px;
+  background-color: var(--background-button);
+  padding: 4px;
+  border-radius: 12px;
+}
+
 .button-video {
   background-color: var(--background-button);
   padding: 7px;
   font-size: 14px;
   border-radius: 14px;
   margin-left: 8px;
+}
+
+.status {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.text-description {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.icon-perfil {
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.input-comment {
+  border: none;
+  border-bottom: 1px solid gray;
+  display: block;
+  outline: none;
+  width: 100%;
+  margin-left: 16px;
+  padding: 0;
 }
