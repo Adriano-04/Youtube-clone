@@ -8,6 +8,7 @@ li {
   list-style: none;
 }
 
+
 .video-title {
   margin: 12px 0;
   display: block;
@@ -131,4 +132,25 @@ li {
   width: 100%;
   margin-left: 16px;
   padding: 0;
+}
+
+@media screen and (max-width: 660px) {
+  .page {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .video {
+    width: 500px;
+    height: 300px;
+  }
+
+  .interation {
+    margin-top: 12px;
+  }
+
+  .info-video {
+    display: block;
+  }
 }

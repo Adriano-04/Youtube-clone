@@ -9,12 +9,6 @@ input {
   font-size: 16px;
 }
 
-@media screen and (max-width: 768px) {
-  input {
-    width: 270px;
-  }
-}
-
 .search {
   display: flex;
   border-radius: 24px;
@@ -94,3 +88,9 @@ div {
   background-color: var(--background-button);
 }
 
+
+@media screen and (max-width: 668px) {
+  input {
+    width: 80px;
+  }
+}

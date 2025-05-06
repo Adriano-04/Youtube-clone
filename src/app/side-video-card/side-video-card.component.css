@@ -49,3 +49,9 @@
   border-radius: 4px;
   color: #fff;
 }
+
+@media screen and (max-width: 660px) {
+  .side-card {
+    width: 100%;
+  }
+}
