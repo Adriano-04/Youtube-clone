@@ -13,9 +13,9 @@
 .side-card {
   display: flex;
   position: relative;
+  width: 100%;
   gap: 6px;
   padding-right: 28px;
-  width: 400px;
 }
 
 .side-card:hover {
@@ -48,10 +48,4 @@
   left: 142px;
   border-radius: 4px;
   color: #fff;
-}
-
-@media screen and (max-width: 660px) {
-  .side-card {
-    width: 100%;
-  }
 }

@@ -1,9 +1,9 @@
 <div class="container">
-  <app-header></app-header>
+  <app-header [MenuOpen]="MenuOpen" (toggleMenu)="toggleMenu()"></app-header>
 
   <div class="page">
     <div>
-      <video width="870" height="500" controls class="video">
+      <video width="940" height="520" controls class="video">
         <source src="assets/video_placeholder.mp4">
       </video>
       <h2 class="video-title">Titulo do video</h2>
@@ -69,7 +69,8 @@
         </div>
       </div>
     </div>
-    <ul>
+
+    <ul class="side-list">
       <li>
         <app-side-video-card
         thumbnail="https://th.bing.com/th/id/OIP.TxSLJy9_Z4wIMDGm8gLJYwHaE7?w=650&h=433&rs=1&pid=ImgDetMain"
@@ -104,5 +105,5 @@
       </li>
     </ul>
   </div>
-
+  <app-side-bar-modal></app-side-bar-modal>
 </div>

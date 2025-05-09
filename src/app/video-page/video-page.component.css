@@ -1,6 +1,7 @@
 .video {
-  border-radius: 12px;
-  margin-right: 16px;
+  border-radius: 16px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 li {
@@ -43,6 +44,10 @@ li {
   border: none;
   border-radius: 16px;
   margin-left: 8px;
+}
+
+.side-list {
+  padding-top: 20px;
 }
 
 .page, .interation {

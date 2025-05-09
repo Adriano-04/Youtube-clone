@@ -30,7 +30,7 @@
 
     <hr class="line">
 
-    <p>Faça login para curtir <br> vídeos, comentar e se <br> inscrever.</p>
+    <p style="margin: 8px 0;">Faça login para curtir <br> vídeos, comentar e se <br> inscrever.</p>
     <p class="login_link">
       <img src="/assets/person_svg.svg" alt="" class="person">
       Fazer login
@@ -100,4 +100,4 @@
     </div>
   </div>
 </div>
-<div class="overlay" *ngIf="MenuOpen"></div>
+<div class="overlay" *ngIf="MenuOpen" (click)="onToggleMenu()"></div>
